@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>	Admin Dashboard</title>
+	<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href=""Style.css>
+	<link rel="stylesheet" href="stylepd.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+	<input type="checkbox" name="nav-toggle">
+	<div class="sidebar">
+		<div class="sidebar-brand">
+			<h1><span class=""></span>HealU</h1>
+		</div>
+		<div class="sidebar-menu">
+			<ul>
+				<li>
+					<a href="" class=""><span class="las la-igloo"></span>
+						<span>Dashboard</span></a>
+				</li>
+				<li>
+					<a class="" href="#doctors"><span class="las la-users"></span>
+						<span>Doctors</span></a>
+				</li>
+				<li>
+					<a class="" href="#patients"><span class="las la-users"></span>
+						<span>Patients</span></a>
+				</li>
+				<li>
+					<a href="appReview.html"><span class="las la-clipboard"></span>
+						<span>Reports</span></a>
+				</li>
+				<li>
+					<a href="homepage.html"><span class="las la-arrow-left"></span>
+						<span>Logout</span></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="main-content">
+		<header>
+			<h1>
+				<label for="nav-toggle">
+					<span class="las la-bars"></span>
+				</label>
+				Dashboard
+			</h1>
+			<div class="search wrapper">
+				<span class="las la-search"></span>
+				<input type="search" placeholder ="Search here"/>
+			</div>
+			<div class="user-wrapper">
+				
+			</div>
+			<div>
+				<h4>Admin</h4>
+				<small>Admin</small>
+			</div>
+		</header>
+
+		<main>
+			
+			<div class="cards">
+				<div class="card-single">
+					<div>
+						<h1>10 </h1>
+						<span><a class="active" href="#patients">Patients</a></span>
+					</div>
+				</div>
+				<div class="card-single">
+					<div>
+						<h1>10 </h1>
+						<span><a class="active" href="#doctors">Doctors</a></span>
+					</div>
+				</div>
+
+					</div>
+				<div class="recent-grids">
+					<div class="projects">
+						<div class="card">
+							<div class="card-header">
+								<section></section>
+								<h2>Patients</h2>
+
+								<button>See all<span class="las la-arrow-right"></span></button>
+								
+							</div>
+							<section class="patients" id="patients">
+							<div class="card-body">
+							<div class="table-resaponsive"></div>
+							<table width="100%">
+								<th>
+									<tr>
+										<th>SL</th>
+										<th>Name</th>
+										<th>Age</th>
+										<th>Contact Number</th>
+										<th>Status</th>
+									</tr>
+								</th>
+								<tbody>
+									<tr>
+										<td>1</td>
+										<td>Sakib Esrat</td>
+										<td>21</td>
+										<td>01912345678</td>
+										<td><button>Approved</button></td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>Yasin Arafat</td>
+										<td>42</td>
+										<td>01912345678</td>
+										<td><button>Approved</button></td>
+									</tr>
+									<tr>
+										<td>3</td>
+										<td>Nusrat Jahan</td>
+										<td>35</td>
+										<td>01912345678</td>
+										<td><button>Approved</button></td>
+									</tr>
+									<tr>
+										<td>4</td>
+										<td>Esrat Jahan</td>
+										<td>26</td>
+										<td>01912345678</td>
+										<td><button>Approved</button></td>
+									</tr>
+									<tr>
+										<td>5</td>
+										<td>Parvez Islam</td>
+										<td>38</td>
+										<td>01912345678</td>
+										<td><button>Approved</button></td>
+									</tr>
+									<tr>
+										<td>6</td>
+										<td>Nazrul Islam</td>
+										<td>30</td>
+										<td>01912345678</td>
+										<td><button>Approved</button></td>
+									</tr>
+									<tr>
+										<td>7</td>
+										<td>Popy Akter</td>
+										<td>38</td>
+										<td>01912345678</td>
+										<td><button>Approved</button></td>
+									</tr>
+									<tr>
+										<td>8</td>
+										<td> Nure Asha</td>
+										<td>19</td>
+										<td>01912345678</td>
+										<td><button>Approved</button></td>
+									</tr>
+									<tr>
+										<td>9</td>
+										<td>Shyket Rayhan</td>
+										<td>65</td>
+										<td>01912345678</td>
+										<td><button>Approved</button></td>
+									</tr>
+									<tr>
+										<td>10</td>
+										<td>Suraiya Hasan</td>
+										<td>54</td>
+										<td>01912345678</td>
+										<td><button>Approved</button></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						</div>
+					</div>
+					</section>
+
+					<section class="doctors" id="doctors">
+					<div class="customers">
+						<div class="card">
+							<div class="card-header">
+								<h2 class="#doctor">Doctors</h2>
+								<button>See all <span class="las la-arrow-right"></span></button>
+							</div>
+							<div class="card-body">
+							<div class="customer">
+								
+								<div class="info">
+									<h4>1</h4>
+									<img src="doctorpreferred.png" width="40px" height="40px" alt="">
+								</div>
+								<div>
+								<h4>Moriom Tamanna</h4>
+								<small>Professsor</small><br>
+								<small><b>Lab Aid Hospital</b></small>
+							</div>
+							<div class="contact">
+							<span class="las la-user-circle"></span>
+							<span class="las la-comment"></span>
+							<span class="las la-phone"></span>
+						</div>
+						</div>
+						<div class="customer">
+									<div class="info">
+										<h4>2</h4>
+									<img src="doctorpreferred.png" width="40px" height="40px" alt="">
+								</div>
+								<div>
+
+								<h4>Khadiza Begum</h4>
+								<small>Professsor</small><br>
+								<small><b>Ibn Sina Hospital</b></small>
+							</div>
+					
+						<div class="contact">
+
+							<span class="las la-user-circle"></span>
+							<span class="las la-comment"></span>
+							<span class="las la-phone"></span>
+						</div>
+						</div>
+						<div class="customer">
+								<div class="info">
+									<h4>3</h4>
+									<img src="doctorpreferred.png" width="40px" height="40px" alt="">
+								</div>
+								<div>
+								<h4>Tawhid Khan</h4>
+								<small>Professsor</small><br>
+								<small><b>Kurmitola Hospital</b></small>
+							</div>
+						<div class="contact">
+							<span class="las la-user-circle"></span>
+							<span class="las la-comment"></span>
+							<span class="las la-phone"></span>
+						</div>
+					</div>
+					<div class="customer">
+								<div class="info">
+									<h4>4</h4>
+									<img src="doctorpreferred.png" width="40px" height="40px" alt="">
+								</div>
+								<div>
+								<h4>Samir Hossain</h4>
+								<small>Professsor</small><br>
+								<small><b>Tejgaon Hospital</b></small>
+							</div>
+						<div class="contact">
+							<span class="las la-user-circle"></span>
+							<span class="las la-comment"></span>
+							<span class="las la-phone"></span>
+						</div>
+					</div>
+					<div class="customer">
+								<div class="info">
+									<h4>5</h4>
+									<img src="doctorpreferred.png" width="40px" height="40px" alt="">
+								</div>
+								<div>
+								<h4>Azharu Islam</h4>
+								<small>Professsor</small><br>
+								<small><b>Square Hospital</b></small>
+							</div>
+						<div class="contact">
+							<span class="las la-user-circle"></span>
+							<span class="las la-comment"></span>
+							<span class="las la-phone"></span>
+						</div>
+					</div>
+					<div class="customer">
+								<div class="info">
+									<h4>6</h4>
+									<img src="doctorpreferred.png" width="40px" height="40px" alt="">
+								</div>
+								<div>
+								<h4>Fahmida Parvin</h4>
+								<small>Professsor</small><br>
+								<small><b>Lab Aid Hospital</b></small>
+							</div>
+						<div class="contact">
+							<span class="las la-user-circle"></span>
+							<span class="las la-comment"></span>
+							<span class="las la-phone"></span>
+						</div>
+					</div>
+					<div class="customer">
+								<div class="info">
+									<h4>7</h4>
+									<img src="doctorpreferred.png" width="40px" height="40px" alt="">
+								</div>
+								<div>
+								<h4>Suborna Alam</h4>
+								<small>Professsor</small><br>
+								<small><b>Lubana Hospital</b></small>
+							</div>
+						<div class="contact">
+							<span class="las la-user-circle"></span>
+							<span class="las la-comment"></span>
+							<span class="las la-phone"></span>
+						</div>
+					</div>
+					<div class="customer">
+								<div class="info">
+									<h4>8</h4>
+									<img src="doctorpreferred.png" width="40px" height="40px" alt="">
+								</div>
+								<div>
+								<h4>Maisha Ahana</h4>
+								<small>Professsor</small><br>
+								<small><b>Hi Care Hospital</b></small>
+							</div>
+						<div class="contact">
+							<span class="las la-user-circle"></span>
+							<span class="las la-comment"></span>
+							<span class="las la-phone"></span>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+</section>
+		</main>
+	</div>
+</body>
+</html>
