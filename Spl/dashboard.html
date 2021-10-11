@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+    integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+    <link rel= "stylesheet" href="dashboardstyle.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <h2>healU</h2>
+        </div>
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="dashboard.html" class="active">
+                        <span class="las la-igloo"></span>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="appointmentpage.html">
+                        <span class="las la-igloo"></span>
+                        <span>Appointments</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="profilepage.html">
+                        <span class="las la-igloo"></span>
+                        <span>My Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="homepage.html">
+                        <span class="las la-igloo"></span>
+                        <span>Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="main-content">
+        <header>
+            <h2>
+                <label for="">
+                    <span class="las la-bars"></span>
+                </label>
+                Overview
+
+            </h2>
+
+            <div class="search-wrapper">
+                <span class = "las la-search"></span>
+                <input type ="search" placeholder="Search here" />
+            </div>
+
+            <div class="user-wrapper">
+                <a href = ""><img src = "userimg.svg" alt="" width="35px" height="35px"/></a>
+                <div>
+                    <h4>Mr. Jaqob Thakur</h4>
+                </div>
+            </div>
+
+            
+                
+        </header>
+        <main>
+            <div class="cards">
+                <div class="card-single">
+                    <div class="welcome-text">
+                        <h1>Hello, Dr. _____.</h1>
+                        <span>Hope you're doing well today!</span>
+                    </div>
+                    <div class="doctor-image">
+                        <img src="Doctor_Flatline.svg">
+                    </div>
+                </div>
+
+            </div>
+            <div class="recent-grid">
+                <div class="projects">
+                   <div class="card">
+                       <div class="card-header">
+                           <h3>Appointments taken</h3>
+                           <button><a href = "appointmentpage.html">See all</a> <span class="las la-arrow-right"></span></button>
+
+                       </div>
+
+                       <div class="card-body">
+                           <table width="100%">
+                               <thead>
+                                   <tr>
+                                       <td>Name</td>
+                                       <td>Time</td>
+                                       <td>Day</td>
+                                       <td>Patient Status</td>
+                                      
+                                   </tr>
+                               </thead>
+                               <tbody>
+                                   <tr>
+                                       <td>Sharmin Akhter</td>
+                                       <td>8.00 a.m.</td>
+                                       <td>Today</td>
+                                       <td>
+                                           <span class="status pink"></span>
+                                           New
+                                        </td>
+                                   </tr>
+                                   <tr>
+                                       <td>Israt Jahan</td>
+                                       <td>9.00 a.m.</td>
+                                       <td>Today</td>
+                                       <td>
+                                           <span class="status purple"></span>
+                                           Existing
+                                        </td>
+                                   </tr>
+                                   <tr>
+                                    <td>Sharfuz Zaman</td>
+                                    <td>3.00 p.m.</td>
+                                    <td>Today</td>
+                                    <td>
+                                        <span class="status purple"></span>
+                                        Existing
+                                     </td>
+                                </tr>
+                                <tr>
+                                    <td>Wana Islam</td>
+                                    <td>4.00 p.m.</td>
+                                    <td>Today</td>
+                                    <td>
+                                        <span class="status purple"></span>
+                                        Existing
+                                     </td>
+                                </tr>
+                                <tr>
+                                    <td>Sarah Ali</td>
+                                    <td>5.00 p.m.</td>
+                                    <td>Today</td>
+                                    <td>
+                                        <span class="status pink"></span>
+                                        New
+                                     </td>
+                                </tr>
+                                <tr>
+                                    <td>Abdul Qureshi</td>
+                                    <td>6.00 p.m.</td>
+                                    <td>Today</td>
+                                    <td>
+                                        <span class="status pink"></span>
+                                        New
+                                     </td>
+                                </tr>
+                                <tr>
+                                    <td>Mamun Sarker</td>
+                                    <td>7.00 p.m.</td>
+                                    <td>Today</td>
+                                    <td>
+                                        <span class="status pink"></span>
+                                        New
+                                     </td>
+                                </tr>
+                                <tr>
+                                    <td>Nadir Islam</td>
+                                    <td>7.30 p.m.</td>
+                                    <td>Today</td>
+                                    <td>
+                                        <span class="status purple"></span>
+                                        Existing
+                                     </td>
+                                </tr>
+                                <tr>
+                                    <td>Akij Sarker</td>
+                                    <td>12.00 p.m.</td>
+                                    <td>Sunday</td>
+                                    <td>
+                                        <span class="status purple"></span>
+                                        Existing
+                                     </td>
+                                </tr>
+                               </tbody>
+
+                           </table>
+
+                       </div>
+
+
+                   </div> 
+                </div>
+
+
+                <div class="customers">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Requested Appointments</h3>
+                            <button><a href="appointmentpage.html">See all</a></button>
+ 
+                        </div>
+ 
+                        <div class="card-body">
+                            <div class="customer">
+                                <div class="details">
+                                 
+                                 <div>
+                                     <a href=""><h4>Rasheda Begum</h4></a>
+                                     <small>11.00 a.m.</small>
+                                 </div>
+                                 <a href=""><button>Accept</button></a>
+                                 <a href=""><button>Decline</button></a>
+                                 
+                
+                                </div>
+                                
+                            </div>
+                            <div class="customer">
+                                <div class="details">
+                                 
+                                 <div>
+                                     <a href=""><h4>Ashraf Ali</h4></a>
+                                     <small>2.00 p.m.</small>
+                                 </div>
+                                 <a href=""><button>Accept</button></a>
+                                 <a href=""><button>Decline</button></a>
+                                 
+                
+                                </div>
+                                
+                            </div>
+                            <div class="customer">
+                                <div class="details">
+                                 
+                                 <div>
+                                     <a href=""><h4>Md Moniruzzaman</h4></a>
+                                     <small>9.00 a.m.</small>
+                                 </div>
+                                 <a href=""><button>Accept</button></a>
+                                 <a href=""><button>Decline</button></a>
+                                 
+                
+                                </div>
+                                
+                            </div>
+                            <div class="customer">
+                                <div class="details">
+                                 
+                                 <div>
+                                     <a href=""><h4>Ayesha Akhter</h4></a>
+                                     <small>9.00 p.m.</small>
+                                 </div>
+                                 <a href=""><button>Accept</button></a>
+                                 <a href=""><button>Decline</button></a>
+                                 
+                
+                                </div>
+                                
+                            </div>
+                            <div class="customer">
+                                <div class="details">
+                                 
+                                 <div>
+                                     <a href=""><h4>Tabassum Samia</h4></a>
+                                     <small>12.00 p.m.</small>
+                                 </div>
+                                 <a href=""><button>Accept</button></a>
+                                 <a href=""><button>Decline</button></a>
+                                 
+                
+                                </div>
+                                
+                            </div>
+                            <div class="customer">
+                                <div class="details">
+                                 
+                                 <div>
+                                     <a href=""><h4>Raidah Haque</h4></a>
+                                     <small>10.00 p.m.</small>
+                                 </div>
+                                 <a href=""><button>Accept</button></a>
+                                 <a href=""><button>Decline</button></a>
+                                 
+                
+                                </div>
+                                
+                            </div>
+                            <div class="customer">
+                                <div class="details">
+                                 
+                                 <div>
+                                     <a href=""><h4>Safwan Islam</h4></a>
+                                     <small>10.00 p.m.</small>
+                                 </div>
+                                 <a href=""><button>Accept</button></a>
+                                 <a href=""><button>Decline</button></a>
+                                 
+                
+                                </div>
+                                
+                            </div>
+                            <div class="customer">
+                                <div class="details">
+                                 
+                                 <div>
+                                     <a href=""><h4>Nayeeb Salman</h4></a>
+                                     <small>8.00 p.m.</small>
+                                 </div>
+                                 <a href=""><button>Accept</button></a>
+                                 <a href=""><button>Decline</button></a>
+                                 
+                
+                                </div>
+                                
+                            </div>
+                            <div class="customer">
+                                <div class="details">
+                                 
+                                 <div>
+                                     <a href=""><h4>Alisha Thakur</h4></a>
+                                     <small>3.00 p.m.</small>
+                                 </div>
+                                 <a href=""><button>Accept</button></a>
+                                 <a href=""><button>Decline</button></a>
+                                 
+                
+                                </div>
+                                
+                            </div>
+                            <div class="customer">
+                                <div class="details">
+                                 
+                                 <div>
+                                     <a href=""><h4>Saiyara Sadat</h4></a>
+                                     <small>7.00 p.m.</small>
+                                 </div>
+                                 <a href=""><button>Accept</button></a>
+                                 <a href=""><button>Decline</button></a>
+                                 
+                
+                                </div>
+                                
+                            </div>
+                            <div class="customer">
+                                <div class="details">
+                                 
+                                 <div>
+                                     <a href=""><h4>Anwara Khatun</h4></a>
+                                     <small>10.00 p.m.</small>
+                                 </div>
+                                 <a href=""><button>Accept</button></a>
+                                 <a href=""><button>Decline</button></a>
+                                 
+                
+                                </div>
+                                
+                            </div>
+                            
+
+                            
+                           
+ 
+                        </div>
+
+
+
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

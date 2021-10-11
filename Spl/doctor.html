@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoctorSignUp</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="title"><h4>Sign up as a doctor</h4></div>
+        <div class="title"><h6>General Information</h6></div>
+        <div class="content">
+          <form action="doctorsignup.php" method="post">
+          <div class="user-details">
+	<div class="input-box">
+        <span class="doctorsname">Name</span>
+    <input type="text" placeholder="Enter Your Name" name="doctorsname" required>
+	</div>
+    <div class="input-box">
+        <span class="doctorsemail">Email Address</span>
+    <input type="text" placeholder="Enter Your Email" name="doctorsemail" required>
+	</div>
+  <div class="input-box">
+        <span class="doctorscontactno">Contact Number</span>
+    <input type="tel" placeholder="Enter Your Contact Number" name="doctorscontactno" required>
+	</div>
+    <div class="input-box">
+        <span class="doctorsregno">BM&DC Registration Number</span>
+    <input type="text" placeholder="Enter Your Reg. Number" name="doctorsregno" required>
+	</div>
+    <div class="input-box">
+        <span class="chamberaddress"> Chamber Address</span>
+    <input type="text" placeholder="Enter Your Chamber Address" name="chamberaddress" required>
+	</div>
+    <div class="select">
+        <span class="speciality">Speciality</span>
+        <select id="speciality" name="speciality">
+          <option value="" disabled selected>Choose Your Field</option>
+          <option value="cardiology">Cadiology</option>
+          <option value="dental">Dental</option>
+          <option value="dermatology">Dermatology</option>
+          <option value="diabetes">Diabetes & Hormone</option>
+          <option value="ent">ENT</option>
+          <option value="eye">Eye</option>
+          <option value="medicine">Family Medicine</option>
+          <option value="gastroenterology">Gastroenterology</option>
+          <option value="gynecology">Gynecology & Obstetrics</option>
+          <option value="infertility">Infertility</option>
+          <option value="mental-health">Mental Health</option>
+          <option value="neurology">Neurology</option>
+          <option value="oncology">Oncology</option>
+          <option value="orthopaedics">Orthopaedics</option>
+          <option value="paediatrics">Paediatrics</option>
+          <option value="physiotherapy">Physiotherapy</option>
+          <option value="rheumatology">Rheumatology</option>
+          <option value="sonology">Sonology</option>
+          <option value="surgery">Surgery</option>
+          <option value="urology">Urology</option>
+         </select>
+         </div>
+         <div class="input-box">   
+    <span class="doctorspsw">Password</span>
+    <input type="password" placeholder="Create Password" name="doctorspsw" required>
+         </div>  
+		 <div class="input-box">
+          <span class="position">Position</span>
+          <input type="text" placeholder="Enter Your Position" name="doctorsposition" required>
+        </div>	 
+        <div class="input-box">
+          <span class="visitingtime">Visiting Time</span>
+          <input type="time" name="visitingtime" required>
+        </div>  
+         <div class="input-box">
+          <span class="visitingfees">Visiting Fees</span>
+          <input type="text" placeholder="Enter Your Visiting Fees" name="visitingfees" required>
+        </div>  
+        <div class="input">
+          <span class="doctorscertificate">BM&DC Registration Certificate</span><br><br>
+      <input type="file" placeholder="Select a file:" name="doctorscertificate" required>
+    </div>
+         <div class="gender-details" name="doctorsgender">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Other</span>
+            </label>
+          </div>
+        </div><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="doctorbutton"><br><br><br>
+      <input type="submit" value="Sign Up">
+    </div>
+            
+        </div>
+        </div>
+        <div class="paragraph">
+          <p>Not a doctor?<a href="patient.html" class="join"><b>Choose another.</b></a></p>
+          <p>Already have an account?<a href="Login.html" class="join"><b>Log in.</b></a></p>
+      </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

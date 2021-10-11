@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+    integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+    <link rel= "stylesheet" href="profilepage.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <h2>healU</h2>
+        </div>
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="dashboard.html" >
+                        <span class="las la-igloo"></span>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="appointmentpage.html">
+                        <span class="las la-igloo"></span>
+                        <span>Appointments</span>
+                    </a>
+                </li>
+               
+                <li>
+                    <a href="profilepage.html" class="active">
+                        <span class="las la-igloo"></span>
+                        <span>My Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="las la-igloo"></span>
+                        <span>Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="main-content">
+        <header>
+            <h2>
+                <label for="">
+                    <span class="las la-bars"></span>
+                </label>
+                My Profile
+
+            </h2>
+
+            <div class="search-wrapper">
+                <span class = "las la-search"></span>
+                <input type ="search" placeholder="Search here" />
+            </div>
+
+           
+
+            
+                
+        </header>
+        <main>
+            <div class="title"><h1>General Information</h1></div>
+            <div class="content">
+              <form method="post">
+              <div class="user-details">
+        <div class="input-box">
+            <span class="doctorsname">Name</span>
+        <input type="text" placeholder="Enter Your Name" name="doctorsname" required>
+        </div>
+        <div class="input-box">
+            <span class="doctorsemail">Email Address</span>
+        <input type="text" placeholder="Enter Your Email" name="doctorsemail" required>
+        </div>
+      <div class="input-box">
+            <span class="doctorscontactno">Contact Number</span>
+        <input type="tel" placeholder="Enter Your Contact Number" name="doctorscontactno" required>
+        </div>
+        
+        
+        <div class="select">
+            <span class="speciality">Speciality</span>
+            <select id="speciality" name="speciality">
+              <option value="" disabled selected>Choose Your Field</option>
+              <option value="cardiology">Cadiology</option>
+              <option value="dental">Dental</option>
+              <option value="dermatology">Dermatology</option>
+              <option value="diabetes">Diabetes & Hormone</option>
+              <option value="ent">ENT</option>
+              <option value="eye">Eye</option>
+              <option value="medicine">Family Medicine</option>
+              <option value="gastroenterology">Gastroenterology</option>
+              <option value="gynecology">Gynecology & Obstetrics</option>
+              <option value="infertility">Infertility</option>
+              <option value="mental-health">Mental Health</option>
+              <option value="neurology">Neurology</option>
+              <option value="oncology">Oncology</option>
+              <option value="orthopaedics">Orthopaedics</option>
+              <option value="paediatrics">Paediatrics</option>
+              <option value="physiotherapy">Physiotherapy</option>
+              <option value="rheumatology">Rheumatology</option>
+              <option value="sonology">Sonology</option>
+              <option value="surgery">Surgery</option>
+              <option value="urology">Urology</option>
+             </select>
+             </div>
+             <div class="input-box">
+            <span class="doctorsregno">BM&DC Registration Number</span>
+        <input type="text" placeholder="Enter Your Reg. Number" name="doctorsregno" required>
+        </div>
+      <div class="input-box">
+              <span class="doctorsgender">Gender</span>
+          <input type="text" placeholder="Enter Your Gender" name="doctorsgender" required>
+        </div>
+        <div class="input-box">
+              <span class="position">Position</span>
+              <input type="text" placeholder="Enter Your Position" name="doctorsposition" required>
+            </div>
+      <div class="select">
+            <span class="chamberaddress">Chamber Area</span>
+            <select id="chamberaddress" name="chamberaddress">
+              <option value="" disabled selected>Choose Your Area</option>
+              <option value="barishal"> Barishal</option>
+              <option value="chattogram">Chattogram</option>
+              <option value="dhaka">Dhaka</option>
+              <option value="khulna">Khulna</option>
+              <option value="rajshahi">Rajshahi</option> 
+              <option value="rangpur">Rangpur</option>
+              <option value="mymensingh">Mymensingh</option>
+              <option value="sylhet">Sylhet</option>
+             </select>
+             </div>
+             <div class="input-box">   
+        <span class="doctorspsw">Password</span>
+        <input type="password" placeholder="Create Password" name="doctorspsw" required>
+             </div>  
+             
+                 
+            <div class="input-box">
+              <span class="visitingtime">Visiting Time</span>
+              <input type="time" name="visitingtime" required>
+            </div>  
+             <div class="input-box">
+              <span class="visitingfees">Visiting Fees</span>
+              <input type="text" placeholder="Enter Your Visiting Fees" name="visitingfees" required>
+            </div> <br><br> 
+            <div class="input">
+              <span class="doctorscertificate">BM&DC Registration Certificate</span><br><br>
+          <input type="file" placeholder="Select a file:" name="doctorscertificate" required>
+        </div>
+            
+                
+            </div>
+            </div>
+          </form>
+        </div>
+        </main>
+    </div>
+</body>
+</html>
